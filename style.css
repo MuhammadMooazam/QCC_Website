@@ -6,9 +6,7 @@
 .nav-item active {
     color: rgb(1, 1, 100);
 }
-.carousel-item {
-    height: 500px;
-}
+
 .navbar{ 
     
     font-size: 120% !important;
@@ -19,6 +17,7 @@
     font-weight: bold;
     color: rgb(1, 1, 100);
     text-align: center;
+    margin-top: 0%;
     
 }
 .intro-head{
@@ -37,9 +36,7 @@ p{
 padding-left: 10%;
 padding-right: 10%;
 }
-iframe{
-    margin-left: 13%;
-    margin-right: auto;
+
 }
 .main{
     margin-left: 5%;
@@ -59,12 +56,20 @@ footer{
     justify-content: center;
     align-content: space-around;
 }
-.card2{
+.card1{
+    
+    margin-left: 10%;
+}
+.card2, .card1, .card3{
     margin-right: 5%;
     margin-left: 5%;
 }
 .card-title, .card-text{
     text-align: center;
+}
+.card-title{
+    color: blue;
+    font-weight: bold;
 }
 .photo{
     width: 18rem;
@@ -72,6 +77,7 @@ footer{
 }
 #contact{
 padding-left: 5%;
+padding-right: 5%;
 width: 100%;
 
 }
@@ -118,16 +124,60 @@ width: 100%;
     background-color: #125688;
     color: white;
   }
-  table{
+
+  .webinar-img{
+      height: 50%;
       width: 90%;
-      margin-left:5%;
+      padding-left: 10%;
+      align-content: center;
   }
-  .media{
-      width: 60%;
-      
-      
-  }
-  .address{
-      width: 30%;
-     
-  }
+  @media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+}
+.social-media{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+@media (max-width: 767px) {
+.carousel-item {
+    height: 80%;
+}
+}
+@media (min-width: 767px) {
+    .carousel-item {
+        height: 450px;
+    }
+    }
+
+    @media (max-width: 767px) {
+    iframe{
+        height: 50%;
+        margin-right: auto;
+        margin-left: 12%;
+    }
+}
+@media (min-width: 767px) {
+    iframe{
+     margin-left: 12%;
+        margin-right: auto;
+        height: 400px;
+    }
+}
