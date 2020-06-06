@@ -3,62 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta hrgb(6, 6, 99)UA-Compatible" content="ie=edge">
+    <meta hrgb(6, 6, 99)UA-Compatible content="ie=edge">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
     <title>Quantum Computing Club</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark text-light" class="navbar navbar-default navbar-fixed-top">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="images\logo_qcc1.jpg"> 
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    
-                          <li class="nav-item">
-                                <a class="nav-link text-light" href="mission.html">Our_Mission</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-light" href="events.html">Events</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-light" href="achievements.html">Achievements</a>
-                              </li>
-                          <li class="nav-item">
-                              <li class="nav-item">
-                                  <a class="nav-link text-light" href="blogs.html">Blogs</a>
-                                </li>
-                    <li class="nav-item">
-                            <a class="nav-link text-light" href="aboutus.html">About_Us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-light" href="index.html#contact">Contact_Us</a>
-                          </li>
-                  </ul>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"
+        style="background-color: #343a40 !important; width: 100%; color: whitesmoke !important; height: auto !important;">
+        <a class="navbar-brand" href="#" style="margin-left: 6%; font-weight: bold;">QCC
+            <img src="images/qcc logo.jpg" width="40" style="margin-left: 10%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <span class="navbar-nav mr-auto" id="navbar_contents">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="blogs.html">Blogs<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mission.html">Our Missions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact Us</a>
+                </li>
+            </span>
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 8%;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default " type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
                 </div>
-              </nav> 
-
-
-
-
-
-
-
-
+            </form>
+        </div>
+    </nav>
+<div class="bg-light blogs shadow p-3 mb-5 rounded">
+</br>
+    <h2 class="intro-head"> Why Quantum Computing? </h2>
+</br>
+<img class="img-why-quantum" src="images/quantum-computing.jpg">
+</br>
+<p>
+</br>
+        We know that Quantum Computation depends on the quantum mechanics which is a mathematical model that defines the evolution of physical realization of computation and hence the quantum computer itself. Up to now several physically equivalent formulations have been found for quantum mechanics.
+</p>
+<p>
+        Quantum mechanics defines the behavior and internal properties of elementary particles such as electrons or photons on the atomic and subatomic levels. In the first half of the 20th century many scientists formulated, including Schrondinger, Bohr, Heisenberg and Dirac, in the late 70’s  quantum information processing systems has been proposed. Even later, in the 80’s of the last century Feynman suggested the first physical realization of a Quantum Computer. Benioff also was one of the first researchers to formulate the principles of quantum computing and Deutsch proposed the first Quantum Algorithm. Due to Moore's law there is now rapidly increasing the interest on these topics in computer engineering community. That is: 
+       <q>
+        the number of transistors in a chip doubles every 18 months and the size of gates is constantly shrinking.  
+       </q> 
+</p>
+<p>
+        Electronic devices issues like heat dissipation and information loss are becoming very important for current and future technologies. Improving the scale of transistors ultimately leads to a technology working on the level of elementary particles, such as a single electron or photon. Since Moore’s paper the progress led to the current nano circuit technology which considering the size of an approximately 10−10m . Consequently the exploration and its related Quantum Computing becomes very important to the development of future devices and in consequence to the development of quantum algorithms and quantum logic  and architecture techniques which will change the dimesions of future computing. 
+</p>
+<p>
+        Current progress in implementation and architectures prove that this area is just at its begining and is gorwing. For instance the implementation of small quantum logic operations with trapped ions are the indication that this time-frame of close future can be potentially reduced to only a few years before the first operational quantum computer is developed. Currently, most recent implementation of quantum computer is the adiabatic computer by D-Wave Systems. Although up to now it is still an open issue whether the DWAVE computer is a proper quantum computer or not, it provides considerable speed up over classical computer in the (RNG) Random Number Generation. Even in presence of adiabatic quantum computer, architectures for full quantum computers have been proposed. 
+</p>
+<p>
+ In these suggestions the quantum computations is implemented over a collection of photons that represents the degree of freedom between qubits. Such architectures have not beenBecause of their super performance and specific problem solution power, quantum computers will be predominantly used in computational intelligence and robotics, and similarly to classical computers they will ultimately enter every area of technology to boost computing power. Despite the fact of being based on paradoxical principles, Quantum mechanics has found applications in almost all fields of scientific research and technology. Although only theoretical concepts of implementation of complete quantum computer architectures have been proposed the continuous progresses in technology will allow the construction of Quantum Computers in close future, definitly in coming 10 to 30 years.
+</br>
+</br>
+</p>
+</div>
+<div class="bg-light blogs shadow p-3 mb-5 rounded">
+</br>
+    <h2 class="intro-head"> What Do We Expect From Quantum Computing? </h2>
+</br>
+<img class="img-why-quantum" src="images/Quantum.Computing.Expectation.jpg">
+</br>
+<p>
+</br>
+    The question is how long does it take to develope fully operational quantum computer. Commonly know as Quantum Supremacy. The goal is to build a system, that can performs maximum calculation and manipulate most of the qubits. Number of qubits in quantum technology is increasing day by day. Quantum computing and Quantum Information Science holds great promise for solving most important and complex classically intractable computational problems. Currently, ongoing work in theoretical and experimental physics continues to make new advances in a number of technologies that might one day underlay a quantum information processor which will be used to boost quantum computing. Relatively little investment has been made in exploring the computer science side of quantum information science even though the challenges that quantum computing poses to the world of computer science are on a par with the challenges posed to the world of physics. </p>
+    <p> Intelligence Advanced Research Projects Activity Quantum Computer Science Program explores questions relating to the computational resources required to run quantum algorithms on realistic quantum computers. Any implementation of a quantum algorithm requires not only programming the algorithm at a logical level but also the incorporation of error correction and control schemes at the physical level, and resource estimation must account for all of these factors.</p>
+    <p> The QCS program is developing a tool chain to study these issues throughout the computing process.The tools will include an integrated development environment for the quantum programming languages already developed by the program, compilers to generate logical circuits, and tools for analyzing quantum error correction and control protocols. Through its research QCS will build a foundation for measuring and reducing the resources required to program and implement complex quantum algorithms of realistic size.</p>
+<p>Quantum computers are in theory capable of simulating the interactions of molecules at a level of detail far beyond the capabilities of even the largest supercomputers today. Such simulations could revolutionize chemistry, biology and materials science, but the development of quantum computers has been limited by the ability to increase the number of quantum bits, or qubits, that encode, store and access large amounts of data.</p> 
+<p>In a paper published in the Journal of Applied Physics, a team of researchers at the Georgia Tech Research Institute  and Honeywell International have demonstrated a new device that allows more electrodes to be placed on a chip an important step that could help increase qubit densities and bring us one step closer to a quantum computer that can simulate molecules or perform other algorithms of interest.</p><p>This work was funded by the Intelligence Advanced Research Projects Activity. As Quantum computer is able to perform most complex calculations quantum computers are capable to break any encryption system we are now using today, which is a big threat to the modern communication system. Simply defined in Shor's Algorithm. Despite that, quantum computers require quantum communication to be operated on global level. </p>
             </br>
         </br>
     </br>
                 <footer class="fixed-bottom bg-dark text-success"> 
-                        Designed & developed by Iqra Naz
+                  Quantum Computing Club © 2020 All rights reserved. Designed & developed by Iqra Naz
                         </footer>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
             </body>
             </html>
 
