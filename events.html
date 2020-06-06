@@ -3,67 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta hrgb(6, 6, 99)UA-Compatible" content="ie=edge">
+    <meta hrgb(6, 6, 99)UA-Compatible content="ie=edge">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
     <title>Quantum Computing Club</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark text-light" class="navbar navbar-default navbar-fixed-top">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="images\logo_qcc1.jpg"> 
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item ">
-                      <a class="nav-link text-light" href="index.html">Home</a>
-                    </li>
-                    
-                          <li class="nav-item">
-                                <a class="nav-link text-light" href="mission.html">Our_Mission</a>
-                              </li>
-                              <li class="nav-item active">
-                                <a class="nav-link text-light" href="#">Events <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-light" href="achievements.html">Achievements</a>
-                              </li>
-                          <li class="nav-item">
-                              <li class="nav-item">
-                                  <a class="nav-link text-light" href="blogs.html">Blogs</a>
-                                </li>
-                    <li class="nav-item">
-                            <a class="nav-link text-light" href="aboutus.html">About_Us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a  href="index.html#contact" class="nav-link text-light">Contact_Us</a>
-                          </li>
-                  </ul>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"
+        style="background-color: #343a40 !important; width: 100%; color: whitesmoke !important; height: auto !important;">
+        <a class="navbar-brand" href="#" style="margin-left: 6%; font-weight: bold;">QCC
+            <img src="images/qcc logo.jpg" width="40" style="margin-left: 10%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <span class="navbar-nav mr-auto" id="navbar_contents">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mission.html">Our Missions</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="events.html">Events<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact Us</a>
+                </li>
+            </span>
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 8%;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default " type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
                 </div>
-              </nav> 
-              <div class="bg-light main">
+            </form>
+        </div>
+    </nav>
+<div class="blogs shadow p-3 mb-5 rounded bg-light">
+              <div class=" main ">
             </br>
               <h2 class="intro-head">
                 Webinar on IBM Quantum Challenge 2020
               </h2>
             </br>
-<img class="webinar-img" src="images/webinar1.jpg">
+<img class="img-why-quantum" src="images/webinar1.jpg">
             </div>
-            
-
-
-
-
-
+        </br>
+        <div>
+            <p>
+                This webinar was organized by QCC Ex-Com, held on May 16th, 2020. The main topic of the webinar was IBM Quantum Challenge 2020.
+            </p>
+            <p>
+                IBM Quantum Challenge 2020 was a global challenge organized by IBM on 4th Aniversary of IBM Quantum 
+                Experience. It comprises of 4 different exercises which were to be done in 4 days. </p>
+                <p>
+                    There were 4 different topics for 4 exercises given below:
+                    <ol class="content-center">
+                        <li>
+                            Quantum Circuits
+                        </li>
+                        <li>
+                            Measurement Error Mitigation
+                        </li>
+                        <li>
+                            Quantum Cryptography
+                        </li>
+                        <li>
+                           Quantum Circuit's Cost Reduction 
+                        </li>
+                    </ol>
+            </p>
+            <p>
+            In this webinar the speakers were Ex-Com members of QCC; Iqra Naz, Muhammad Moazzum, Muhammad Shahbaz, Rubab Manzar, and Muhammad Miqdad Khan.</p>  
+            <img class="img" src="images/web_speakers.jpg" >
+            <p>
+            </br>We discussed the introduction and importance of Quantum Computers and briefly described the whole Exercises of the challenge.
+     We were approched globally and many foreign participants joined this webinar too. It was our first experience and end with a great exposure of our Club.
+ </p>
+</div>
+</div>
             </br>
         </br>
     </br>
                 <footer class="fixed-bottom bg-dark text-success"> 
-                        Designed & developed by Iqra Naz
+                  Quantum Computing Club © 2020 All rights reserved. Designed & developed by Iqra Naz
                         </footer>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
             </body>
             </html>
