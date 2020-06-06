@@ -1,251 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta hrgb(6, 6, 99)UA-Compatible" content="ie=edge">
-    <title>Quantum Computing Club</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta hrgb(6, 6, 99)UA-Compatible content="ie=edge">
+  <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+  <title>Quantum Computing Club</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark text-light" class="navbar navbar-default navbar-fixed-top">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="images\logo_qcc1.jpg"> 
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item ">
-                      <a class="nav-link text-light" href="index.html">Home</a>
-                    </li>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"
+    style="background-color: #343a40 !important; width: 100%; color: whitesmoke !important; height: auto !important;">
+    <a class="navbar-brand" href="#" style="margin-left: 6%; font-weight: bold;">QCC
+      <img src="images/qcc logo.jpg" width="40" style="margin-left: 10%;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <span class="navbar-nav mr-auto" id="navbar_contents">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogs.html">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mission.html">Our Missions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="achievements.html">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact Us</a>
+        </li>
+      </span>
+      <form class="form-inline my-2 my-lg-0" style="margin-right: 8%;">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default " type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </nav>
+      <div class="slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" >
+                        <img src="images/q1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/q2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3>Quantum Computers will transform every financial model in the world.</h3>   
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/q4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3>Quantum Computers have properties of Superposition and Entanglement</h3>
+                         
+                        </div>
+                      </div>
                     
-                          <li class="nav-item">
-                                <a class="nav-link text-light" href="mission.html">Our_Mission</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-light" href="events.html">Events</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-light" href="achievements.html">Achievements</a>
-                              </li>
-                          <li class="nav-item">
-                              <li class="nav-item">
-                                  <a class="nav-link text-light" href="blogs.html">Blogs</a>
-                                </li>
-                    <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">About_Us <span class="sr-only">(current)</span></a>
-                          </li>
-                          <li class="nav-item">
-                                <a class="nav-link text-light" href="index.html#contact">Contact_Us</a>
-                          </li>
-                  </ul>
-                </div>
-              </nav> 
-        <div class="bg-light content-center">
-            </br>
-            <h2 class="intro-head">
-                Who are we?  
-                </h2>
-                <p>
-                  We're a group of students from different technological background learning together and working for the promotion of fastest growing Quantum technology among other students. 
-                  We belong to NED University of Engineering and Technology. We aim to take forward our country in the research and technological developments in the Quantum World. 
-                  If you want to join us and work with us you're highly encouraged to contact us to do something better something more interesting and amazing.  
-                </p>
-            </br>
-
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="column-2 px-2 mb-r">
-              
-                  <!--Card-->
-                  <div class="card card1" style="width: 18rem;">
-                      <img class="photo" src="images/moazzum.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title"> Muhammad Moazzum</h5>
-                        <p class="card-text">Department of Electrical Engineering</p>
-                      </div>
-                      <!--<ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">LinkedIn</a>
-                        <a href="#" class="card-link">Another link</a>
-                      </div>-->
-                    </div>
-                  <!--/.Card-->
-              
-                </div>
-                <!-- Grid column -->
-              
-                <!-- Grid column -->
-                <div class="column-1 px-2 mb-r">
-              
-                  <!--Card-->
-                  <div class="card card2" style="width: 18rem;">
-                      <img class="photo" src="images/iqra.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Iqra Naz</h5>
-                        <p class="card-text">Department of Software Engineering
-                      
-                        </p>
-                      </div>
-                     <!-- <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                      </div>-->
-                    </div>
-                  <!--/.Card-->
-              
-                </div>
-                <!-- Grid column -->
-              
-                <!-- Grid column -->
-                <div class="column-1 px-2">
-              
-                  <!--Card-->
-                 
-                  
-                    <div class="card card3" style="width: 18rem;">
-                        <img class="photo" src="images/miqdad.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Muhammad Miqdad Khan</h5>
-                          <p class="card-text">Department of Applied Physics
-                       
-                          </p>
-                        </div>
-                        <!--<ul class="list-group list-group-flush">
-                          <li class="list-group-item">Cras justo odio</li>
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>-->
-                      </div>
-                  <!--/.Card-->
-              
-                </div>
-                <!-- Grid column -->
-                <div class="column-1 px-2 mb-r">
-              
-                    <!--Card-->
-                   
-                    <!--/.Card-->
-                
-                  </div>
-              </div>
-              <!-- Grid row -->
-            </br>
-              <div class="row">
-
-                  <!-- Grid column -->
-                  <div class="column-2 px-2 mb-r">
-                
-                    <!--Card-->
-                    <div class="card card1" style="width: 18rem;">
-                        <img class="photo" src="images/danial.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Muhammad Daniyal</h5>
-                          <p class="card-text">Teaching Faculty of PIAIC</p>
-                        </div>
-                       <!-- <ul class="list-group list-group-flush">
-                          <li class="list-group-item">Cras justo odio</li>
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>-->
-
-
-                      </div>
-
-                    <!--/.Card-->
-                
-                  </div>
-                  <!-- Grid column -->
-                
-                  <!-- Grid column -->
-                  <div class="column-1 px-2 mb-r">
-                
-                    <!--Card-->
-                    <div class="card card2" style="width: 18rem;">
-                        <img class="photo" src="images/rabab.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Rabab Naqvi</h5>
-                          <p class="card-text">Department of Applied Physics</p>
-                        </div>
-                        <!--<ul class="list-group list-group-flush">
-                          <li class="list-group-item">Cras justo odio</li>
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>-->
-                      </div>
-                    <!--/.Card-->
-                
-                  </div>
-                  <!-- Grid column -->
-                
-                  <!-- Grid column -->
-                  <div class="column-1 px-2">
-                
-                    <!--Card-->
-                    <div class="card card3" style="width: 18rem;">
-                        <img src="images/shahbaz.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Muhammad Shahbaz</h5>
-                          <p class="card-text">Department of Computational Finance</p>
-                        </div>
-                       <!--- <ul class="list-group list-group-flush">
-                          <li class="list-group-item">Cras justo odio</li>
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>-->
-                      </div>
-                    <!--/.Card-->
-                
-                  </div>
-                  <!-- Grid column -->
-                 
-                </div>
-                <!-- Grid row -->
-
-              
-                       
-
-                                             
-
-                            
+                            <div class="carousel-item">
+                              <img src="images/q3.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>More efficient and complex architecture.</h3>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/q5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>More complexity More Security</h3>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/q6.jpeg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>The IBM Quantum Computer.</h3>       
+                              </div>
+                            </div>
+                          </div>
             </div>
-
-                </div>
-            </br>
-        </br>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+      </div>
     </br>
-                <footer class="fixed-bottom bg-dark text-success"> 
-                        Designed & developed by Iqra Naz
-                        </footer>
-            </body>
-            </html>
+      <div class="main">
+        <h1 class="main-head" >
+          Quantum Computing Club (QCC)
+        </h1>
+      <div class="less-margin shadow p-3 mb-5 rounded bg-light">      
+          <h2 class="intro-head">
+              Introduction
+                      </h2>
+      <p>
+          Quantum Computing Club is a student research group that focuses on establishment of a platform where study and promotion of Quantum Computing Knowledge is the goal in order to develop in the field and spread awareness respectively.
+          Quantum Computing is the emerging field in today’s technology and QCC aims towards an institution for collective learning between researchers and students internationally, following the respective aim members of QCC  represented Pakistan on IBM’s May4 Global Quantum Challenge and are dedicated towards further growth of the team.
+          All the computing enthusiasts and Quantum Students or experts around the nation who wish to be a part of an evolution of  a new era of technology, those who wish to make efforts on international basis and would like to commit to our aims are welcomed with high regards by the Club.
+      </p>
+    </br>
+        <h2 class="intro-head">
+What is Quantum Computer?
+        </h2>
+      </br>
+        <iframe width="75%" height="300px"  src="https://www.youtube.com/embed/QF7QfE6qgTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+        </br>
+          Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers. Quantum computers are believed to be able to solve certain computational problems, such as integer factorization (which underlies RSA encryption), substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science.
+        </p>
+        <p>
+          Rather than store information using bits represented by 0s or 1s as conventional digital computers do, quantum computers use quantum bits, or qubits, to encode information as 0s, 1s, or both at the same time. This superposition of states along with the other quantum mechanical phenomena of entanglement and tunneling enables quantum computers to manipulate enormous combinations of states at once.
+        </p>
+        <p>
+          IBM and Google are racing to create a truly useful quantum computer. Here's what makes quantum computers different from normal computers and how they could change the world. Quantum computing could change the world. It could transform medicine, break encryption and revolutionise communications and artificial intelligence. Companies like IBM, Microsoft and Google are racing to build reliable quantum computers. China has invested billions.
+
+          Recently, Google claimed that it had achieved quantum supremacy the first time a quantum computer has outperformed a traditional one.
+        </p>
+        <p>
+            Quantum computers aren’t just about doing things faster or more efficiently. They’ll let us do things that we couldn’t even have dreamed of without them. Things that even the best supercomputer just isn’t capable of. They have the potential to rapidly accelerate the development of artificial intelligence. Google is already using them to improve the software of self-driving cars. They’ll also be vital for modelling chemical reactions.
+            Right now, supercomputers can only analyse the most basic molecules. But quantum computers operate using the same quantum properties as the molecules they’re trying to simulate. They should have no problem handling even the most complicated reactions.
+        </p>
+        <p>
+          Quantum computers will find a use anywhere where there’s a large, uncertain complicated system that needs to be simulated. That could be anything from predicting the financial markets, to improving weather forecasts, to modelling the behaviour of individual electrons: using quantum computing to understand quantum physics.
+Cryptography will be another key application. Right now, a lot of encryption systems rely on the difficulty of breaking down large numbers into prime numbers. This is called factoring, and for classical computers, it’s slow, expensive and impractical. But quantum computers can do it easily. And that could put our data at risk.
+</p>
+      </div>
+      </div>
+      <div id="contact" class="bg-dark" >
+      </br>
+              <h1 class="intro-head text-light">
+              Contact Us
+            </h1>
+        </br>
+                  <div class="card bg-dark social-media" style="width: 100%;">
+                      <div class="card-body">
+                <a href="https://web.facebook.com/Quantumcomputingclub" class="faa fa fa-facebook"> </a>
+                <a href="#" class="faa fa fa-twitter"> </a>
+                <a href="quantumclub21@gmail.com" class="faa fa fa-google"> </a> 
+                <a href="#" class="faa fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UCHOeawJ1oDiTvETE7IwCEFA" class="faa fa fa-youtube"> </a>
+                <a href="https://www.instagram.com/quantum.computing.club" class="faa fa fa-instagram"></a>
+                      </div>
+                  </div>
+                  <div class="card bg-dark" style="width: 100%;">
+                      <div class="card-body">
+              <h4 class="intro-head text-primary">
+                Address
+              </h4>
+              <p class="text-light" style="text-align: center;">
+                NED University Of Engineering & Technology, Karachi, Karachi City, Sindh 75270
+              </p>
+                      </div>   
+            </div>    
+        </div>
+     </div>
+  </br>
+</br> 
+<footer class="fixed-bottom bg-dark text-success"> 
+  Quantum Computing Club © 2020 All rights reserved. Designed & developed by Iqra Naz
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html> 
